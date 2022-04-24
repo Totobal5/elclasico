@@ -1,0 +1,49 @@
+{
+  "resources": [
+    {"id":{"name":"clasFun","path":"scripts/clasFun/clasFun.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":4,},
+    {"id":{"name":"clasClass","path":"scripts/clasClass/clasClass.yy",},"order":4,},
+    {"id":{"name":"clasArray","path":"scripts/clasArray/clasArray.yy",},"order":1,},
+    {"id":{"name":"clasMZ","path":"scripts/clasMZ/clasMZ.yy",},"order":2,},
+    {"id":{"name":"clasCollection","path":"scripts/clasCollection/clasCollection.yy",},"order":0,},
+    {"id":{"name":"clasCounter","path":"scripts/clasCounter/clasCounter.yy",},"order":1,},
+    {"id":{"name":"clasVector2","path":"scripts/clasVector2/clasVector2.yy",},"order":2,},
+    {"id":{"name":"clasParser","path":"scripts/clasParser/clasParser.yy",},"order":3,},
+    {"id":{"name":"clasLog","path":"scripts/clasLog/clasLog.yy",},"order":5,},
+    {"id":{"name":"clasList","path":"scripts/clasList/clasList.yy",},"order":6,},
+  ],
+  "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+  ],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Clasico.yy","order":3,"resourceVersion":"1.0","name":"Clasico","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Clasico/Classes.yy","order":3,"resourceVersion":"1.0","name":"Classes","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.300.0.499",
+  },
+  "resourceVersion": "1.5",
+  "name": "elclasico",
+  "tags": [],
+  "resourceType": "GMProject",
+}
