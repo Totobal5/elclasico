@@ -1,0 +1,4 @@
+* Collection listo. Hasta el momento ningún cambio
+* Separar cada script si posee demasiados
+* Los scripts en minusculas con prefijo "elclas" si poseen un constructor entonces la continuacion es en mayuscula
+
