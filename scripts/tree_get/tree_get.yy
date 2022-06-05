@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "ds_list",
-    "path": "folders/ElClasico/Ds Type/ds_list.yy",
+    "name": "Tree",
+    "path": "folders/ElClasico/Data/Tree.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ds_list_to_array",
+  "name": "tree_get",
   "tags": [],
   "resourceType": "GMScript",
 }

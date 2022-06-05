@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "ds_list",
-    "path": "folders/ElClasico/Ds Type/ds_list.yy",
+    "name": "Basic Draw",
+    "path": "folders/ElClasico/Basic Draw.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ds_list_to_array",
+  "name": "draw_circle_width",
   "tags": [],
   "resourceType": "GMScript",
 }
