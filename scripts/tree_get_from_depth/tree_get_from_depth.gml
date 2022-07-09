@@ -5,9 +5,9 @@
 function tree_get_from_depth(_tree, _depth) 
 {
 	if (!is_tree(_tree) ) show_error("El arbol o rama no existen", true);
+	if (!is_string(_depth) ) _depth = string(_depth);
 	
 	var _root  = _tree.__getRoot();
-	var _depth = string(_depth);
 	var _return = [];
 	
 	if (variable_struct_exists(_root, _depth) )

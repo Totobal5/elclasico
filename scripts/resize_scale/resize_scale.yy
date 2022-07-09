@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "iterations",
-    "path": "folders/ElClasico/Array/iterations.yy",
+    "name": "In Instance",
+    "path": "folders/ElClasico/Instances/In Instance.yy",
   },
   "resourceVersion": "1.0",
-  "name": "array_map",
+  "name": "resize_scale",
   "tags": [],
   "resourceType": "GMScript",
 }

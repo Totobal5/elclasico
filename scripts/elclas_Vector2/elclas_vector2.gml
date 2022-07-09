@@ -89,14 +89,14 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Struct.Vector2}
 	static setXY = function(_x, _y=_x) 
 	{
-		if (is_vector2(_x) ) {
-			/// @type {Struct.Vector2}
+		if (is_vector2(_x) ) 
+		{
 			var _vector = _x;
-			
 			x = (_vector).x;		
 			y = (_vector).y;	
 		} 
-		else {
+		else 
+		{
 			x = _x;	
 			y = _y;
 		}
@@ -158,11 +158,13 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Struct.Vector2}
 	static add = function(_x=0, _y=_x) 
 	{
-		if (!is_vector2(_x) ) {
+		if (!is_vector2(_x) ) 
+		{
 			x += _x;
 			y += _y;
 		}
-		else {
+		else 
+		{
 			x += _x.x;	
 			y += _x.y;
 		}
@@ -175,11 +177,13 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Struct.Vector2}	
 	static multiply = function(_x=1, _y=_x) 
 	{
-		if (!is_vector2(_x) ) {
+		if (!is_vector2(_x) ) 
+		{
 			x *= _x;	
 			y *= _y;	
 		}
-		else {
+		else 
+		{
 			x *= _x.x;
 			y *= _x.y;
 		}
@@ -192,11 +196,13 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Struct.Vector2}	
 	static division = function(_x, _y=_x) 
 	{
-		if (!is_vector2(_x) ) {
+		if (!is_vector2(_x) ) 
+		{
 			x /= max(0.01, _x);	
 			y /= max(0.01, _y);	
 		}
-		else {
+		else 
+		{
 			x /= max(0.01, _x.x);
 			y /= max(0.01, _x.y);
 		}
@@ -224,10 +230,12 @@ function Vector2(_x=0, _y=0) constructor
 	/// @returns {Real}	
 	static lengthTo = function(_x, _y=_x) 
 	{
-		if (is_vector2(_x) ) {
+		if (is_vector2(_x) ) 
+		{
 			return (point_distance(x, y, _x.x, _x.y) );		
 		}
-		else {
+		else 
+		{
 			return (point_distance(x, y, _x, _y) );
 		}
 	}
@@ -252,10 +260,12 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Real}	
 	static angleTo = function(_x, _y=_x) 
 	{
-		if (is_vector2(_x) ) {
+		if (is_vector2(_x) ) 
+		{
 			return darctan2( (_x.y - y) , (_x.x - x) );
 		}
-		else {
+		else 
+		{
 			return darctan2( (_y - y) , (_y - x) );	
 		}
 	}
@@ -276,10 +286,12 @@ function Vector2(_x=0, _y=0) constructor
 	/// @return {Real}
 	static cross = function(_x, _y) 
 	{
-		if (is_vector2(_x) ) {
+		if (is_vector2(_x) ) 
+		{
 			return ((x * _x.x) - (y * _x.y) );
 		}
-		else {
+		else 
+		{
 			return ((x * _y) - (y * _x) );	
 		}
 	}
@@ -290,10 +302,12 @@ function Vector2(_x=0, _y=0) constructor
 	/// @returns {Real}
 	static dot = function(_x, _y) 
 	{
-		if (is_vector2(_x) ) {
+		if (is_vector2(_x) ) 
+		{
 			return dot_product(x, y, _x.x, _x.y);
 		}
-		else {
+		else 
+		{
 			return dot_product(x, y, _x, _y);
 		}
 	}
@@ -317,7 +331,8 @@ function Vector2(_x=0, _y=0) constructor
 	/// @param {Real}				value
 	static dirAdd = function(_direction, _value) 
 	{
-		switch (_direction) {
+		switch (_direction) 
+		{
 			case VEC2_DIR.UP:		y += _value;	break;
 			case VEC2_DIR.LEFT:		x -= _value;	break;
 			case VEC2_DIR.RIGHT:	x += _value;	break;
@@ -331,7 +346,8 @@ function Vector2(_x=0, _y=0) constructor
 	/// @param {Real}				value
 	static dirMult = function(_direction, _value) 
 	{ 
-		switch (_direction) {
+		switch (_direction) 
+		{
 			case VEC2_DIR.UP:		y *=  _value;	break;
 			case VEC2_DIR.LEFT:		x *= -_value;	break;
 			case VEC2_DIR.RIGHT:	x *=  _value;	break;
@@ -345,7 +361,8 @@ function Vector2(_x=0, _y=0) constructor
 	/// @param {Real}				value
 	static dirDiv  = function(_direction, _value) 
 	{
-		switch (_direction) {
+		switch (_direction) 
+		{
 			case VEC2_DIR.UP:		y /= max(0.01,  _value);	break;
 			case VEC2_DIR.LEFT:		x /= max(0.01, -_value);	break;
 			case VEC2_DIR.RIGHT:	x /= max(0.01,  _value);	break;

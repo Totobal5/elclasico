@@ -1,0 +1,2 @@
+Memo: Sistema de guardado/carga de datos. Bastante simple
+Numtype: Diferenciar un numero si es un porcentaje, real o boleano

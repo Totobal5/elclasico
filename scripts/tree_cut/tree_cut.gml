@@ -4,7 +4,8 @@
 /// @return {Struct.Tree} Rama eliminada
 function tree_cut(_tree, _id) 
 {
-	if (!is_tree(_tree) ) TREE_NOTEXIST;
+	// Agrega una nueva hoja a la rama seleccionada
+	if (!is_tree(_tree) ) show_error("El arbol o rama no existen", true)
 	
 	if (is_undefined(_id) )
 	{

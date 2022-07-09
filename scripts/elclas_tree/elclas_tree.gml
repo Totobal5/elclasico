@@ -141,9 +141,11 @@ function Tree(_id, _value, _is_node=true) constructor
 		return _depth;
 	}
 	
+	/// @ignore
 	static __makeMap = function(_depth) 
 	{
-		var _depth = string(_depth);
+		if (!is_string(_depth) ) _depth = string(_depth);
+		
 		// check
 		if (!is_struct(__depthMap[$ _depth] ) )	// Si no existe
 		{
@@ -157,16 +159,19 @@ function Tree(_id, _value, _is_node=true) constructor
 		return (__depthMap[$ _depth] );
 	}
 	
+	/// @ignore
 	static __getMap = function() 
 	{
 		return (__depthMap[$ string(__depth) ] );	
 	}
 	
+	/// @ignore
 	static __getRoot = function()
 	{
 		return (__depthMap[$ "1"] );	
 	}
 	
+	/// @ignore
 	static __makeRoot = function()
 	{
 		__id = "root";	
@@ -186,6 +191,7 @@ function Tree(_id, _value, _is_node=true) constructor
 		return self;
 	}
 	
+	/// @ignore
 	static __mapToArray = function()
 	{
 		var _array = [];

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Array",
-    "path": "folders/ElClasico/Array.yy",
+    "name": "Data",
+    "path": "folders/ElClasico/Data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "array_create_nd",
+  "name": "elclas_TypeReader",
   "tags": [],
   "resourceType": "GMScript",
 }

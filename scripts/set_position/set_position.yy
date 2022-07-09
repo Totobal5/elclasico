@@ -6,7 +6,7 @@
     "path": "folders/ElClasico/Instances/In Instance.yy",
   },
   "resourceVersion": "1.0",
-  "name": "resize",
+  "name": "set_position",
   "tags": [],
   "resourceType": "GMScript",
 }

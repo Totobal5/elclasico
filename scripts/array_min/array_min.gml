@@ -1,7 +1,9 @@
 /// @param {Array<Real>} _array
 /// @desc Devuelve el menor numero en un array (Default=0)
 /// @returns {Real} 
-function array_min(_array) {
+function array_min(_array) 
+{
+	gml_pragma("forceinline");
 	var _temp=0;
 	
 	if (!array_empty(_array) ) {
@@ -14,4 +16,3 @@ function array_min(_array) {
 	
 	return (_temp);
 }
-

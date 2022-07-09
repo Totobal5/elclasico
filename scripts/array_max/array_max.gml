@@ -1,7 +1,9 @@
 /// @param {Array<Real>} array_index
 /// @desc Devuelve el mayor numero en un array (Default=1)
 /// @returns {Real} 
-function array_max(_array) {
+function array_max(_array) 
+{
+	gml_pragma("forceinline");
 	var _temp = 1;
 	
 	if (!array_empty(_array) ) {
